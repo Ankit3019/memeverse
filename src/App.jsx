@@ -8,16 +8,8 @@ import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 import Leaderboard from "./pages/Leaderboard";
 import Footer from "./components/Footer";
-import { useEffect } from "react";
 
 const App = () => {
-  useEffect(() => {
-    if (localStorage.getItem("dark") === "true") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, []);
   return (
     <Router>
       <Navbar/>
