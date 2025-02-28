@@ -60,7 +60,7 @@ const MemeDetails = () => {
             <h2 className="text-xl font-bold mb-2">Comments</h2>
             <div className="space-y-2">
               {comments.map((comment, index) => (
-                <div key={index} className="bg-gray-100 p-2 rounded">
+                <div key={index} className="bg-gray-100 p-2 rounded dark:bg-gray-800">
                   {comment}
                 </div>
               ))}
