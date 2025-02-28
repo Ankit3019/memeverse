@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { FaHeart } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 
 const BigMemeCard = ({ meme }) => {

@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Explorer from "./pages/Explorer";
 import Upload from "./pages/Upload";
 import MemeDetails from "./pages/MemeDetails";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 import Leaderboard from "./pages/Leaderboard";
